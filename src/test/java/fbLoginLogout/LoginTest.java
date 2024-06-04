@@ -19,5 +19,6 @@ public class LoginTest {
 		driver.findElement(By.id("pass")).sendKeys("Kanishk6$");
 		driver.findElement(By.name("login")).click();
 		Reporter.log("logged in successfully",true);
+		// new line
 	}
 }
